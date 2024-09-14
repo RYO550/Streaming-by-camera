@@ -1,16 +1,16 @@
-# Streaming by Camera on Raspberry Pi
+# Raspberry Piを使ったカメラのストリーミング
 
-This project demonstrates how to stream video from a camera connected to a Raspberry Pi.
+このプロジェクトは、Raspberry Piに接続されたカメラからの映像をストリーミングする方法を説明しています。
 
-## Prerequisites
+## 必要なもの
 
-- Raspberry Pi with a camera (e.g., Pi Camera or USB webcam)
-- Installed GStreamer on Raspberry Pi
-- Ubuntu or other Linux distribution on your client PC
+- カメラ（例: PiカメラまたはUSBウェブカメラ）を接続したRaspberry Pi
+- Raspberry PiにインストールされたGStreamer
+- クライアントPC (UbuntuなどのLinuxディストリビューション)
 
-### Step 1: Install GStreamer on Raspberry Pi
+### ステップ 1: Raspberry PiにGStreamerをインストールする
 
-Run the following commands to install GStreamer on Raspberry Pi:
+以下のコマンドを実行して、Raspberry PiにGStreamerをインストールします:
 
 ```bash
 sudo apt update
