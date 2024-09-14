@@ -1,12 +1,13 @@
 # Raspberry Piを使ったカメラのストリーミング
-
-このプロジェクトは、Raspberry Piに接続されたカメラからの映像をストリーミングする方法を説明しています。
+このプロジェクトは、Raspberry Piに接続されたカメラからの映像をストリーミングし、同一ネットワーク内の他のデバイスから映像を閲覧する方法を説明しています。
 
 ## 本記事で使用したもの
 - WEBカメラ UCAM-C520FBBK ELECOM
-- Raspberry PiにインストールされたGStreamer
-- クライアントPC (UbuntuなどのLinuxディストリビューション)
-
+- Raspberry Pi 4 OS:Ubuntu 24.04.1 LTS
+- PC ハードウェアモデル:Sony Corporation SVE15127CJB
+     プロセッサ:Intel® Core™ i7-3632QM × 8
+     OS:Ubuntu 24.04.1 LTS
+  
 ### ステップ 1: Raspberry PiにGStreamerをインストールする
 以下のコマンドを実行して、Raspberry PiにGStreamerをインストールします:
 sudo apt update
